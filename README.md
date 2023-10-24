@@ -35,3 +35,28 @@ Before using the Currency Conversion CLI, ensure you have the following prerequi
 
    ```bash
    npm install
+
+## Usage
+
+1. To use the Currency Conversion CLI, follow these steps:
+
+2. Open your terminal or command prompt.
+
+3. Navigate to the project directory.
+
+4. Run the tool by executing the following command:
+      ```bash
+   node currency.js
+5. You will be prompted to select the source currency (USD, CAD, or EUR).
+   
+6. Enter the amount you want to convert.
+
+7. The tool will display the converted amount in PKR (Pakistan Rupee) based on the predefined conversion rates.
+
+## Conversion Rates
+The conversion rates are defined in the code and are as follows:
+
+* 1 USD = 276 PKR
+* 1 CAD = 210 PKR
+* 1 EUR = 320 PKR
+You can modify the code to add more source currencies and their conversion rates if needed.
